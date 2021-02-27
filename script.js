@@ -8,22 +8,23 @@ $(document).ready(function(){
         }
         
         // scroll-up button show/hide script
-        if(this.scrollY > 500){
-            $('.scroll-up-btn').addClass("show");
-        }else{
-            $('.scroll-up-btn').removeClass("show");
+         //  if(this.scrollY > 500){
+          //     $('.scroll-up-btn').addClass("show");
+        //   }else{
+       //       $('.scroll-up-btn').removeClass("show");
+         //  }
+
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-up-btn').fadeIn();
+        } else {
+            $('.scroll-up-btn').fadeOut();
         }
+
     });
-    if($( window ).width() < 1024){
-        $(".my-navbar .logo a").text("Derenik");
-    }else{
-        $(".my-navbar .logo a").text("Derenik Gabrielyan");
-    }
-    // slide-up script
-    $('.scroll-up-btn').click(function(){
-        $('html').animate({scrollTop: 0});
-        // removing smooth scroll on slide-up button click
-        $('html').css("scrollBehavior", "auto");
+    //Click event to scroll to top
+    $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
     });
 
     // toggle menu/navbar script
@@ -37,8 +38,14 @@ $(document).ready(function(){
             $('.menu-btn').toggleClass("toggle");
        });
 
+       if($( window ).width() < 1024){
+        $(".my-navbar .logo a").text("Derenik");
+    }else{
+        $(".my-navbar .logo a").text("Derenik Gabrielyan");
+    }
 
  });
+//------
  $( window ).resize(function() {
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -71,3 +78,4 @@ $(document).ready(function(){
         window.open("Resume-2021.pdf");
       });
  });
+
