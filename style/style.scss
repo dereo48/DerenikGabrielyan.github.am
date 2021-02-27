@@ -1,0 +1,98 @@
+@import 'Scss/about';
+@import 'Scss/contact';
+@import 'Scss/footer';
+@import 'Scss/home';
+@import 'Scss/navbar';
+@import 'Scss/passion';
+@import 'Scss/skills';
+@import 'Scss/work';
+@import 'Scss/MediaQuery';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
+}
+body h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 300;
+}
+p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+ol, ul, dl {
+    margin-bottom: 0rem !important;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #444;
+}
+::-webkit-scrollbar-thumb {
+    background: #999;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: crimson;
+}
+
+/* all similar content styling codes */
+section{
+    padding: 50px 0;
+}
+.about, .passion, .skills, .work, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+section .line::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+section .line::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
