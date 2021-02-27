@@ -466,7 +466,7 @@ footer {
   .my-navbar .menu {
     position: absolute;
     left: 0px;
-    height: 1vh;
+    height: 100vh;
     top: 100px;
     background-color: #222;
     display: -webkit-box;
