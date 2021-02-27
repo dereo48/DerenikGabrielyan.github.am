@@ -5,13 +5,13 @@
   .my-navbar .menu{
       position: absolute;
       left: 0px;
-      height: 92vh;
-      top: 1vh;   
+      height: 100vh;
+      top: 100px;;   
       background-color: #222;
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 40%;
+      width: 50%;
       transform: translateX(-100%);
       transition: transform 0.5s ease-in ;
   }
