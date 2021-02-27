@@ -22,10 +22,10 @@ $(document).ready(function(){
 
     });
     //Click event to scroll to top
-    $('.scrollToTop').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
-        return false;
-    });
+     //$('.scrollToTop').click(function(){
+       //  $('html, body').animate({scrollTop : 0},800);
+       //  return false;
+  //  });
 
     // toggle menu/navbar script
        $('.menu-btn').click(function(){

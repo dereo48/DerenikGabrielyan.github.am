@@ -109,6 +109,9 @@ color: #000!important;
   pointer-events: none;
   transition: all 0.3s ease;
 }
+.scroll-up-btn a{
+   color: #fff;
+}
 .scroll-up-btn.show{
   bottom: 30px;
   opacity: 1;
