@@ -1,0 +1,27 @@
+/* home section styling */
+.head{
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("images/banner.jpeg") ;
+  height: 80vh;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto; 
+}
+.head .home .home-container{
+  text-align: center;
+  line-height: 1.5;
+}
+.head .home .home-container .text-1 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+.head .home .home-container .text-2{
+  font-family: "Roboto", Helvetica, sans-serif;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-weight: 100;
+}

@@ -1,0 +1,37 @@
+.skills .container .row .col-md-8 .title{
+  margin-bottom: 0;
+}
+.skills .container .row .col-md-8 .line{
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+.skills .container .row .card-body{
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.row .card-body .dev-item .fab{
+  font-size: 5em;
+}
+/* resume section styling */
+#resume{
+  background: url("images/resume.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #000;
+  
+}
+#resume .overley {
+  backdrop-filter: blur(5px);
+  padding: 20px 0;
+}
+#resume h5{
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   font-weight: 900;
+}
