@@ -305,6 +305,10 @@ footer {
   text-decoration: none;
 }
 
+.scroll-up-btn a:hover {
+  color: #fff;
+}
+
 .scroll-up-btn.show {
   bottom: 30px;
   opacity: 1;
@@ -463,7 +467,7 @@ footer {
     position: absolute;
     left: 0px;
     height: 92vh;
-    top: 7vh;
+    top: 3vh;
     background-color: #222;
     display: -webkit-box;
     display: -ms-flexbox;
