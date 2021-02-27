@@ -4,15 +4,15 @@
   }
   .my-navbar .menu{
       position: absolute;
-      right: 0px;
-      height: 100vh;
-      top: 6vh;   
+      left: 0px;
+      height: 92vh;
+      top: 7vh;   
       background-color: #222;
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 40%;
-      transform: translateX(100%);
+      transform: translateX(-100%);
       transition: transform 0.5s ease-in ;
   }
   .home .home-container .text-1{
