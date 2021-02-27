@@ -8,17 +8,11 @@ $(document).ready(function(){
         }
         
         // scroll-up button show/hide script
-         //  if(this.scrollY > 500){
-          //     $('.scroll-up-btn').addClass("show");
-        //   }else{
-       //       $('.scroll-up-btn').removeClass("show");
-         //  }
-
-        if ($(this).scrollTop() > 100) {
-            $('.scroll-up-btn').fadeIn();
-        } else {
-            $('.scroll-up-btn').fadeOut();
-        }
+           if(this.scrollY > 500){
+              $('.scroll-up-btn').addClass("show");
+              }else{
+            $('.scroll-up-btn').removeClass("show");
+           }
 
     });
     //Click event to scroll to top
@@ -56,11 +50,12 @@ $(document).ready(function(){
         }
         
         // scroll-up button show/hide script
-        if ($(this).scrollTop() > 100) {
-            $('.scroll-up-btn').fadeIn();
-        } else {
-            $('.scroll-up-btn').fadeOut();
-        }
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass("show");
+            }else{
+          $('.scroll-up-btn').removeClass("show");
+         }
+
     });
      if($( window ).width() < 1024){
         $(".my-navbar .logo a").text("Derenik");
