@@ -302,6 +302,7 @@ footer {
 
 .scroll-up-btn a {
   color: #fff;
+  text-decoration: none;
 }
 
 .scroll-up-btn.show {
@@ -460,7 +461,7 @@ footer {
   }
   .my-navbar .menu {
     position: absolute;
-    right: 0px;
+    left: 0px;
     height: 92vh;
     top: 7vh;
     background-color: #222;
@@ -475,8 +476,8 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     width: 40%;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
     -webkit-transition: -webkit-transform 0.5s ease-in;
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
