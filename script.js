@@ -56,10 +56,10 @@ $(document).ready(function(){
         }
         
         // scroll-up button show/hide script
-        if(this.scrollY > 500){
-            $('.scroll-up-btn').addClass("show");
-        }else{
-            $('.scroll-up-btn').removeClass("show");
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-up-btn').fadeIn();
+        } else {
+            $('.scroll-up-btn').fadeOut();
         }
     });
      if($( window ).width() < 1024){
