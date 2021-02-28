@@ -3,6 +3,7 @@
       display: block;
   }
   .my-navbar .menu{
+      
       position: absolute;
       left: 0px;
       height: 100vh;
@@ -39,4 +40,9 @@
  .navbar-container{
      padding: 0 30px 0 30px;
  }
+}
+@media (max-width:  768px) {
+    #head{
+             background-image: url('images/banner-mobile.jpeg') !important;
+    }
 }
