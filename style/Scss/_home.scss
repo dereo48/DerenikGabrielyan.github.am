@@ -2,8 +2,7 @@
 .head{
   display: grid;
   place-items: center;
-  background-image: url("images/banner.jpeg") ;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("images/banner.jpeg") ;
+  background: url("images/banner.jpeg") ;
   height: 80vh;
   color: #fff;
   min-height: 500px;

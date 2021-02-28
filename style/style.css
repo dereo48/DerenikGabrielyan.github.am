@@ -127,9 +127,7 @@ footer {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  background-image: url("images/banner.jpeg");
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/banner.jpeg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpeg");
+  background: url("images/banner.jpeg");
   height: 80vh;
   color: #fff;
   min-height: 500px;
@@ -162,8 +160,8 @@ footer {
   position: fixed;
   width: 100%;
   z-index: 999;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 .my-navbar.sticky {
@@ -210,13 +208,10 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: space-evenly;
-      justify-content: space-evenly;
   -webkit-box-pack: justify;
   -webkit-box-align: center;
   -ms-flex-align: center;
       align-items: center;
-  padding: 0px;
   margin: 0px;
   list-style: none;
 }
@@ -468,7 +463,8 @@ footer {
     position: absolute;
     left: 0px;
     height: 100vh;
-    top: 56px;
+    top: 55.4px;
+    padding-top: 20px;
     background-color: #222;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -483,10 +479,13 @@ footer {
     width: 50%;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
-    -webkit-transition: -webkit-transform 0.5s ease-in;
-    transition: -webkit-transform 0.5s ease-in;
-    transition: transform 0.5s ease-in;
-    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.4s ease-in;
+    transition: -webkit-transform 0.4s ease-in;
+    transition: transform 0.4s ease-in;
+    transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+  }
+  .my-navbar .menu li {
+    padding-bottom: 90px;
   }
   .home .home-container .text-1 {
     font-size: 50px;
