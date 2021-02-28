@@ -1,6 +1,6 @@
 /* home section styling */
 .head{
-  z-index: 0;
+  z-index: 1;
   background-image: url("images/banner.jpeg") ;
   background-position: center center;
   -webkit-background-size: cover;
@@ -15,6 +15,9 @@
   place-items: center;
   overflow: hidden;
 }
+.head .home{
+  z-index: 0;
+}
 .head .home .home-container{
   text-align: center;
   line-height: 1.5;
@@ -24,6 +27,7 @@
   color: #fff;
 }
 .head .home .home-container .text-1 {
+ 
   letter-spacing: 10px;
   font-size: 50px;
 }
