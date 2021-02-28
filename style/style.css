@@ -124,6 +124,7 @@ footer {
 
 /* home section styling */
 .head {
+  z-index: 0;
   background-image: url("images/banner.jpeg");
   background-position: center center;
   background-size: cover;
