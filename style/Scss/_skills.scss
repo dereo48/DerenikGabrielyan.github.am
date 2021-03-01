@@ -1,3 +1,7 @@
+#skills{
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
 .skills .container .row .col-md-8 .title{
   margin-bottom: 0;
 }
@@ -18,17 +22,20 @@
 }
 /* resume section styling */
 #resume{
-  background: url("images/resume.jpg");
+  background: #000;
+  background-image: url("images/resume.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: #000;
-  
+  overflow: hidden;
 }
 #resume .overley {
   backdrop-filter: blur(5px);
-  padding: 20px 0;
+  padding: 50px 0;
 }
 #resume h5{
    color: rgb(255, 255, 255);
