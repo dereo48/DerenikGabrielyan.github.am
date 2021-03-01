@@ -212,6 +212,7 @@ footer {
   margin-left: 15px;
   letter-spacing: 3px;
   text-decoration: none;
+  font-weight: 300;
 }
 
 .my-navbar .navbar-container .menu-border {
@@ -244,7 +245,7 @@ footer {
   color: #e2e2e2;
   font-size: 15px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 300;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
   text-decoration: none;
@@ -468,7 +469,7 @@ footer {
   padding: 50px 0;
 }
 
-#resume h5 {
+#resume h1 {
   color: white;
   font-size: 20px;
   font-weight: 900;
