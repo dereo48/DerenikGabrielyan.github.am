@@ -36,8 +36,7 @@ $(document).ready(function(){
         $(".my-navbar .logo a").text("Derenik");
     }else{
         $(".my-navbar .logo a").text("Derenik Gabrielyan");
-    }
-
+    };
  });
 //------
  $( window ).resize(function() {
@@ -55,13 +54,16 @@ $(document).ready(function(){
             }else{
           $('.scroll-up-btn').removeClass("show");
          }
-
     });
      if($( window ).width() < 1024){
         $(".my-navbar .logo a").text("Derenik");
     }else{
         $(".my-navbar .logo a").text("Derenik Gabrielyan");
-    }
+    };
+    if($(window).width()< 425){
+        $('.skills .container .row .col-4').toggleClass('col-4  col-5');
+    } else
+        $('.skills .container .row .col-5').toggleClass('col-5 col-4');
  });
 
  $(document).ready(function(){
